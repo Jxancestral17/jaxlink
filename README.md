@@ -10,7 +10,7 @@ This app allows you to associate a tag to multiple links, so you can better orga
 **Requires [Sqllite3](https://www.sqlitetutorial.net/sqlite-nodejs/)**
 
 
-##Version 1.0
+## Version 1.0
 
 - Associate a tag to multiple links
 - Search for a tag
@@ -20,7 +20,7 @@ This app allows you to associate a tag to multiple links, so you can better orga
 - Opens the link on a new page
 
 
-##HOW DOEAS IT WORK?
+## HOW DOEAS IT WORK?
 The server side is managed by NodeJs and ExpressJs. The client side is handled by Bootstrap 5.2.
 When you add a data it is saved in the database.
 When it is requested the data is extracted, written to a json file and then read through js fetch.
